@@ -1,1 +1,226 @@
-/* CS465 Lab1 style file */
+/* 
+AUTHOR - Matt Eagan
+FILE - style.css
+PROJECT - Lab 1
+COURSE - CS-465: Full-Stack Development
+INSTRUCTOR - Charles Palmer
+DUE DATE - 09/29/2025
+*/
+
+header#SiteTop {
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #636363;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    position: relative;
+}
+
+input.SearchBar {
+    height: 48px;
+    width: 100%;
+    max-width: 612px;
+    border-radius: 2px;
+    border-color: #ccc;
+}
+
+ul.prompts {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    text-align: right;
+}
+
+nav#menu {
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #636363;
+    flex-direction: row;
+    height: auto;
+    position: relative;
+}
+ul.quicklinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+body#Main {
+    margin: 0;
+    background-color: #fff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#Banner {
+    color:#fff;
+    background-color: #555;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    align-items: center;
+    height: 500;
+}
+div.Bannertext {
+    padding:24px;
+}
+div.Bannerimg {
+    max-height: 500;
+    display: inline-flex;
+}
+
+section#Grid {
+    background-color: #171717;
+    padding-top: 24px; padding-bottom: 24px;
+    padding-left: 10%; padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    box-sizing: border-box;
+    gap: 16px;
+}
+div.ShowcaseButtons {
+    display: inline-flex;
+    position: relative;
+    text-align: start;
+}
+div.ShowcaseOverlay {
+    font-size: 18px;
+    color:#fff;
+    position:absolute;
+    background-color: #000;
+    padding: 4;
+}
+
+section#Showcase {
+    background-color: #161d28;
+    display: block;
+    padding-top: 36; padding-bottom: 100;
+    padding-left: 100; padding-right: 100;
+}
+p.link {
+    color: #0672cb;
+}
+div.Siteimg {
+    display: inline-flex;
+    position: relative;
+    text-align: start;
+    left: 350;
+}
+div.Whiteinfoblock {
+    font-size: 18;
+    background-color: #fff;
+    color:#171717;
+    width: 30%;
+    padding:14;
+    position: absolute;
+    bottom: 150;
+    left: -300;
+}
+
+section#support {
+    background-color: #202c3a;
+    display: block;
+    padding-top: 36; padding-bottom: 36;
+    padding-left: 100; padding-right: 100;
+}
+ul#Supportlinks {
+    list-style-type: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #36414d;
+    box-sizing: border-box;
+    padding:20px;
+    gap: 16px;
+}
+
+div.Accountbox {
+    background-color: #102b57;
+    position:absolute;
+    font-size: 18;
+    align-items: center;
+    text-align: center;
+    width:45%;
+    bottom: 200;
+    left: -300;
+    padding:20;
+}
+ul#Accountlinks {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+div.business {
+    padding-top: 24;
+    display: inline-flex;
+    position: relative;
+    text-align: start;
+}
+div.Sitebox {
+    background-color: #161d28;
+    position:absolute;
+    padding: 24px;
+    font-size: 18;
+    text-align: center;
+    width: 45%;
+    bottom: 150;
+    left: 540;
+}
+ul#Bricklinklist {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 30% 30% 39%;
+    gap: 16px;
+}
+
+section#news {
+    background-color: #122b54;
+    display:grid;
+    font-size: 20;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+    padding: 70;
+}
+
+button.clear {
+    background-color: transparent;
+    color:#fff;
+    border-radius: 2px;
+    border-color: #fff;
+    font-size: 18;
+    padding:10
+}
+
+button.White {
+    background-color: #fff;
+    color:#171717;
+    border-radius: 2px;
+    border-color: #fff;
+    font-size: 18;
+    padding:10
+}
+
+button.Blue {
+    background-color: #3066b2;
+    color:#fff;
+    border-radius: 2px;
+    border-color: #3066b2;
+    font-size: 18;
+    padding:10;
+}
+
+ul.footer {
+    color: #171717;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+}
